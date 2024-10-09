@@ -18,7 +18,7 @@ function WeatherCard({query}) {
 		}
 		
 		setLoading(true)
-		const apiUrl = "http://api.weatherapi.com/v1/current.json?key="+API_KEY+"&q="+query
+		const apiUrl = "https://api.weatherapi.com/v1/current.json?key="+API_KEY+"&q="+query
 
 		fetch(apiUrl)
 			.then((response) => {return response.json()})
