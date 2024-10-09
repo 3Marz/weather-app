@@ -4,3 +4,4 @@
 
 ![screenshot](/screenshot.png)
 
+### <a href="https://3marz.github.io/weather-app/">Try it</a>
